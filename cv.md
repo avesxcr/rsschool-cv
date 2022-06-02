@@ -36,7 +36,7 @@ As you might have guessed from the title, my name is Matusevich Sevastsyan. I am
 ## Education:
 * 2017 - 2021
     * BSUIR (Faculty of Engineering and Econimics)
-* 2021 - present
+* 2022 - present
     * The rolling scopes school (Front-end developer)
 
 ## English level:
