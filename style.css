@@ -132,3 +132,290 @@ input[type=button] {width: auto; overflow: visible;}
 .clearfix { zoom: 1; }
 
 /* Reset выполнен */
+
+body {
+	max-width: 1440px;
+	display: block;
+	margin: 0 auto;
+}
+
+nav {
+	background-color: #24A19C;
+}
+
+header li a {
+	text-decoration: none; /* Убираем подчеркивание для ссылок */
+	font-family: 'Merriweather', serif;
+	color: #FAEEE7;
+	font-size: 25px;
+}
+
+header li a:hover {
+	color: #325288;;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+header ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+/* section contact information*/
+
+.wrapper-contact-information {
+	display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.contact-information {
+	background-color: white;
+}
+
+.photo {
+	width: 400px;
+}
+
+h1 {
+	margin-top: 2%;
+	font-size: 72px;
+	float: center;
+	font-family: 'Merriweather', serif;
+	margin-left: 5%;
+	width: 920px;
+	color: #325288;
+	text-decoration: underline;
+}
+
+.specialization {
+	font-family: 'Merriweather', serif;
+	margin-left: 5%;
+	font-size: 45px;
+	text-decoration: none;
+}
+
+.contact-info {
+	margin-top: 3%;
+	margin-left: 5%;
+	font-size: 25px;
+	width: 800px;
+	text-decoration: none;
+	font-family: 'Merriweather', serif;
+}
+
+.contact-info a {
+	text-decoration: none;
+	color: black;
+}
+
+.contact-info a:hover {
+	color: #325288;;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* section about me */
+
+.about-me {
+	margin-top: -4px;
+	background-color: #24A19C;
+}
+
+.about-me h2 {
+	padding-top: 1%;
+	font-size: 62px;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	color: #FAEEE7;
+	text-decoration: underline;
+}
+
+.info-about-me {
+	margin-top: 1%;
+	font-size: 35px;
+	font-family: 'Merriweather', serif;
+	color: #FAEEE7;
+	text-align: justify;
+	padding-bottom: 1%;
+}
+
+/* section skills */
+
+.skills {
+	background-color: #FAEEE7;
+}
+
+.skills h2 {
+	padding-top: 1%;
+	font-size: 62px;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	color: #24A19C;
+	text-decoration: underline;
+}
+
+.skills-info ul {
+	font-size: 35px;
+	font-family: 'Merriweather', serif;
+	color: #24A19C;
+	text-align: justify;
+	padding-bottom: 1%;
+	margin-left: 3%;
+}
+
+/* section code */
+
+.code-example {
+	background-color: #24A19C;
+}
+
+.code-example h2 {
+	padding-top: 1%;
+	font-size: 62px;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	color: #FAEEE7;
+	text-decoration: underline;
+}
+
+.javascript {
+	padding-top: 1%;
+	margin-left: 4.3%;
+	font-size: 20px;
+	font-family: 'Merriweather', serif;
+}
+.javascript .de1, .javascript .de2 {font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;color: #000020;}
+.javascript  {font-family:monospace;color: #006; border: 1px solid #d0d0d0; background-color: #FAEEE7;}
+.javascript a:link {color: #000060;}
+.javascript a:hover {background-color: #f0f000;}
+.javascript .imp {font-weight: bold; color: red;}
+.javascript li, .javascript .li1 {font-weight: normal; vertical-align:top;font: normal normal 130% 'Courier New', Courier, monospace; color: #003030;}
+.javascript .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
+.javascript .li2 {font-weight: bold; vertical-align:top;font-weight: bold; color: #006060;}
+.javascript .kw1 {color: #000066; font-weight: bold;}
+.javascript .kw2 {color: #003366; font-weight: bold;}
+.javascript .kw3 {color: #000066;}
+.javascript .co1 {color: #006600; font-style: italic;}
+.javascript .co2 {color: #009966; font-style: italic;}
+.javascript .coMULTI {color: #006600; font-style: italic;}
+.javascript .es0 {color: #000099; font-weight: bold;}
+.javascript .br0 {color: #009900;}
+.javascript .sy0 {color: #339933;}
+.javascript .st0 {color: #3366CC;}
+.javascript .nu0 {color: #CC0000;}
+.javascript .me1 {color: #660066;}
+.javascript span.xtra { display:block; }
+
+/* section work experience */
+
+.work-experience {
+	background-color: #FAEEE7;
+}
+
+.work-experience h2 {
+	padding-top: 1%;
+	font-size: 62px;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	color: #24A19C;
+	text-decoration: underline;
+}
+
+.work-experience pre {
+	font-size: 35px;
+	font-family: 'Merriweather', serif;
+	color: #24A19C;
+	text-align: justify;
+	padding-bottom: 1%;
+	margin-left: 3%;
+}
+
+/* section education */
+
+.education {
+	background-color: #24A19C;
+}
+
+.education h2 {
+	padding-top: 1%;
+	font-size: 62px;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	color: #FAEEE7;
+	text-decoration: underline;
+}
+
+.education pre {
+	font-size: 35px;
+	font-family: 'Merriweather', serif;
+	color: #FAEEE7;
+	text-align: justify;
+	padding-bottom: 1%;
+	margin-left: 3%;
+}
+
+/* section english */
+
+.english {
+	background-color: #FAEEE7;
+}
+
+.english h2 {
+	padding-top: 1%;
+	font-size: 62px;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	color: #24A19C;
+	text-decoration: underline;
+	padding-bottom: 2%;
+}
+
+.english a {
+	font-size: 35px;
+	font-family: 'Merriweather', serif;
+	color: #24A19C;
+	text-align: justify;
+	padding-bottom: 1%;
+}
+
+/* footer */
+
+footer {
+	background-color: #D96098;
+}
+
+footer li a {
+	text-decoration: none; /* Убираем подчеркивание для ссылок */
+	font-family: 'Merriweather', serif;
+	color: #FAEEE7;
+	font-size: 25px;
+}
+
+footer li a:hover {
+	color: #325288;;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+footer ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center
+}
+
+footer img {
+	width: 140px;
+}
+
+footer a {
+	font-size: 35px;
+	font-family: 'Merriweather', serif;
+	color: black;
+}
+
+.github img {
+	width: 60px;
+}
